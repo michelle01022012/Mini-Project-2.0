@@ -28,6 +28,20 @@ h1 {
     font-size: 72px;
 }
 
+a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
 .subheader {
     font-size: 36px;
     margin: 16px 0 24px 0;
@@ -61,3 +75,103 @@ li {
     padding-left: 16px;
 }
 
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: justify-center;
+    justify-content: center;
+    justify-content: center;
+
+}
+
+#about,
+#discord,
+#contact {
+    padding: 48px 0;
+}
+/*
+ABOUT 
+    
+
+ */
+
+ #about {
+    padding: 48px 0;
+    background-color: yellow;
+ }
+    .section__title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+h2 {
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+ }
+
+    .section__description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .about__img--wrapper {
+        width: 40%;
+        padding: 0 24px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .section__description--wrapper {
+        width: 60%;
+         padding: 0 24px;
+                 
+    }
+
+    .about__img--wrapper {
+        width: 60%;
+        padding: 0 24px;
+    }
+
+    .section__description--para {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+    /*
+
+    DISCORD
+
+    */
+
+    #discord {
+        background-color: #cefeff;
+    }
+
+    /*CONTACT
+
+    */
+    #contact {
+        background-color: #dce9ff;
+    }
+
+    font {
+        width: 100%;
+        max-width: 680px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        padding: 6px 12px;
+        margin-bottom: 24px;
+        font-size: 28px;
+    }

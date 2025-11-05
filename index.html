@@ -17,6 +17,7 @@
         </ul>
     </nav>
     <header>
+        <div class="row">
         <div>
             <h1>Best place to learn frontend</h1>
             <p class="subheader">Go from being an absolute beginner to a pro with simplified programming</p>
@@ -24,22 +25,29 @@
             <figure>
               <img src="./assets/laptop.png" alt="Home page image">
         </figure>
-    </header>
+        </div>
+       </header>
   </section>  
 
   <main>
     <section id="about">
+        <h2>About</h2>
+        <div class="section__description">
+        <div class="section__description--wrapper">
+        <p class="section__description--para">
         <div>
-            <p>
+            <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex ipsa porro aperiam reprehenderit vitae natus voluptatum similique provident at, culpa ipsam esse repudiandae? Harum dolores rerum dicta aspernatur ipsum?
             </p>
              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex ipsa porro aperiam reprehenderit vitae natus voluptatum similique provident at, culpa ipsam esse repudiandae? Harum dolores rerum dicta aspernatur ipsum?
             </p>
            </div> 
-        <figure>
-            <img src="./assets/about.png" alt="">
+        <figure class="about__img--wrapper">
+            <img src="./assets/about.jpg" alt="">
         </figure>
+        </div>
+        </div>
     </section>
     
     <section id="discord">
@@ -48,11 +56,14 @@
             <img src="./assets/discord.png" alt="Discord">
         </figure>
         <div>
-           <p>
+        <div class="section__description--wrapper">
+        <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem dicta mollitia sequi incidunt vel. Quam a, optio sint voluptates voluptatem cumque dolores delectus excepturi, iusto id, maxime illum nesciunt!
            </p>
         </div>
-       </section>
+       </div>
+       </div>
+      </section>
 
     <section id="contact">
         <h2>Contact</h2>
@@ -61,7 +72,7 @@
             <input type="text" placeholder="michelle@example.com">
             <span>Message</span>
             <textarea type="text" placeholder="michelle@example.com"></textarea>
-            
+            <button>Contact Us!</button> 
         </form>
     </section>
   </main>
