@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@87.5,100..900&display=swap');
-*{
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
@@ -81,8 +81,7 @@ li {
     display: flex;
     align-items: justify-center;
     justify-content: center;
-    justify-content: center;
-
+   
 }
 
 #about,
@@ -98,7 +97,7 @@ ABOUT
 
  #about {
     padding: 48px 0;
-    background-color: yellow;
+    background-color: #f7e06a;
  }
     .section__title {
         text-align: center;
@@ -134,11 +133,11 @@ h2 {
                  
     }
 
-    .about__img--wrapper {
-        width: 60%;
+    .about__img--wrapper 
+    .section__description--wrapper {
         padding: 0 24px;
     }
-
+    
     .section__description--para {
         font-size: 20px;
         line-height: 1.5;
@@ -162,7 +161,7 @@ h2 {
         background-color: #dce9ff;
     }
 
-    font {
+    form {
         width: 100%;
         max-width: 680px;
         display: flex;
@@ -174,4 +173,27 @@ h2 {
         padding: 6px 12px;
         margin-bottom: 24px;
         font-size: 28px;
+    }
+
+     /*FOOTER
+
+    */
+    footer {
+        background-color: #aaf5ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footer__logo {
+        max-width: 480px;
+        margin-bottom: 16px;
+    }
+    .footer__links {
+        margin-bottom: 32px;
+    }
+
+    .footer__link {
+        padding: 0 36px;
     }
