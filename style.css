@@ -129,7 +129,7 @@ h2 {
 
     .section__description--wrapper {
         width: 60%;
-         padding: 0 24px;
+        padding: 0 24px;
                  
     }
 
@@ -178,6 +178,7 @@ h2 {
      /*FOOTER
 
     */
+    
     footer {
         background-color: #aaf5ff;
         display: flex;
